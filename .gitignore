@@ -1,0 +1,4 @@
+node_modules/
+*.3mf
+*.obj
+*.stl

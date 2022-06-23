@@ -1,0 +1,17 @@
+{
+  "name": "NHP_Patch_Renderer", 
+  "description": "Simple interface to visualize patch patterns in 3D with fiducial brain mesh.", 
+  "dependencies": {
+    "three": "^0.141.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  },
+  "repository": {
+	"type": "git", 
+	"url": "https://github.com/Neuro-Mechatronics-Interfaces/NHP_Patch_Online_Render.git"
+  },
+  "main" : "index.html",
+  "author" : "Max Murphy <mdmurphy@andrew.cmu.edu>",
+  "version" : "0.0.1"
+}
