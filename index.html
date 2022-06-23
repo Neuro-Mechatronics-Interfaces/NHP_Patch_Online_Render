@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NHP Patch Volume Renderer</title>
-        <link rel="icon" type="image/png" href="/assets/image/CMU_Tartans.png">
-        <link rel="stylesheet" href="./dist/style.css">
+        <link rel="icon" type="image/png" href="assets/image/CMU_Tartans.png">
+        <link rel="stylesheet" href="dist/style.css">
         <!-- <script defer type="module" src="./src/index.js"></script> -->
     </head>
     <body class="bg-black-alt font-sans leading-normal tracking-normal">
@@ -94,185 +94,184 @@
                     </div>
                     
                 </div>
-            </nav>
+        </nav>
         
-            <!--Container-->
-            <div class="container w-full mx-auto pt-20">
+        <!--Container-->
+        <div class="container w-full mx-auto pt-20">
+            
+            <div class="w-full px-4 md:px-0 md:mt-8 mb-16 text-gray-800 leading-normal", id="main_canvas">
                 
-                <div class="w-full px-4 md:px-0 md:mt-8 mb-16 text-gray-800 leading-normal", id="main_canvas">
-                    
-                    <div class="flex flex-row flex-wrap flex-grow mt-2">
+                <div class="flex flex-row flex-wrap flex-grow mt-2">
 
-                    
-        
-                        <div class="w-full">
-                            <!--Graph Card-->
-                            <div class="bg-gray-900 border border-gray-800 rounded shadow">
-                                <div class="border-b border-gray-800 p-3">
-                                    <h5 class="font-bold uppercase text-gray-600">Map</h5>
-                                </div>
-                                <div class="p-5" id="canvas" name="main">
-
-                                </div>
+                
+    
+                    <div class="w-full">
+                        <!--Graph Card-->
+                        <div class="bg-gray-900 border border-gray-800 rounded shadow">
+                            <div class="border-b border-gray-800 p-3">
+                                <h5 class="font-bold uppercase text-gray-600">Map</h5>
                             </div>
-                            <!--/Graph Card-->
-                        </div>
-        
-        
+                            <div class="p-5" id="canvas" name="main">
 
-                        <div class="w-full p-3">
-                            <!--Table Card
-                            <div class="bg-gray-900 border border-gray-800 rounded shadow">
-                                <div class="border-b border-gray-800 p-3">
-                                    <h5 class="font-bold uppercase text-gray-600">Table</h5>
-                                </div>
-                                <div class="p-5">
-                                    <table class="w-full p-5 text-gray-700">
-                                        <thead>
-                                            <tr>
-                                                <th class="text-left text-gray-600">Name</th>
-                                                <th class="text-left text-gray-600">Side</th>
-                                                <th class="text-left text-gray-600">Role</th>
-                                            </tr>
-                                        </thead>
-        
-                                        <tbody>
-                                            <tr>
-                                                <td>Obi Wan Kenobi</td>
-                                                <td>Light</td>
-                                                <td>Jedi</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Greedo</td>
-                                                <td>South</td>
-                                                <td>Scumbag</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Darth Vader</td>
-                                                <td>Dark</td>
-                                                <td>Sith</td>
-                                            </tr>                                   
-                                        </tbody>
-                                    </table>
-        
-                                    <p class="py-2"><a href="#" class="text-white">See More issues...</a></p>
-        
-                                </div>
                             </div>
-                            <!--/table Card-->
                         </div>
+                        <!--/Graph Card-->
                     </div>
+    
+    
 
-                    <!--Divider-->
-                    <hr class="border-b-2 border-gray-600 my-8 mx-4">
-
-                    <!--Console Content-->
-                    
-                    <div class="flex flex-wrap">
-                        <div class="w-full md:w-1/2 xl:w-1/3 p-3">
-                            <!--Metric Card-->
-                            <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
-                                <div class="flex flex-row items-center">
-                                    <div class="flex-shrink pr-4">
-                                        <div class="rounded p-3 bg-yellow-600"><i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i></div>
-                                    </div>
-                                    <div class="flex-1 text-right md:text-center">
-                                        <h5 class="font-bold uppercase text-gray-400">FCU</h5>
-                                        <h3 class="font-bold text-3xl text-gray-600" id="FCU">0 <span class="text-green-500"><i class="fas fa-caret-up"></i></span></h3>
-                                    </div>
-                                </div>
+                    <div class="w-full p-3">
+                        <!--Table Card
+                        <div class="bg-gray-900 border border-gray-800 rounded shadow">
+                            <div class="border-b border-gray-800 p-3">
+                                <h5 class="font-bold uppercase text-gray-600">Table</h5>
                             </div>
-                            <!--/Metric Card-->
-                        </div>
-                        <div class="w-full md:w-1/2 xl:w-1/3 p-3">
-                            <!--Metric Card-->
-                            <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
-                                <div class="flex flex-row items-center">
-                                    <div class="flex-shrink pr-4">
-                                        <div class="rounded p-3 bg-yellow-600"><i class="fas fa-users fa-2x fa-fw fa-inverse"></i></div>
-                                    </div>
-                                    <div class="flex-1 text-right md:text-center">
-                                        <h5 class="font-bold uppercase text-gray-400">FCR</h5>
-                                        <h3 class="font-bold text-3xl text-gray-600" id="FCR">0<span class="text-pink-500"><i class="fas fa-exchange-alt"></i></span></h3>
-                                    </div>
-                                </div>
+                            <div class="p-5">
+                                <table class="w-full p-5 text-gray-700">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-left text-gray-600">Name</th>
+                                            <th class="text-left text-gray-600">Side</th>
+                                            <th class="text-left text-gray-600">Role</th>
+                                        </tr>
+                                    </thead>
+    
+                                    <tbody>
+                                        <tr>
+                                            <td>Obi Wan Kenobi</td>
+                                            <td>Light</td>
+                                            <td>Jedi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Greedo</td>
+                                            <td>South</td>
+                                            <td>Scumbag</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Darth Vader</td>
+                                            <td>Dark</td>
+                                            <td>Sith</td>
+                                        </tr>                                   
+                                    </tbody>
+                                </table>
+    
+                                <p class="py-2"><a href="#" class="text-white">See More issues...</a></p>
+    
                             </div>
-                            <!--/Metric Card-->
                         </div>
-                        <div class="w-full md:w-1/2 xl:w-1/3 p-3">
-                            <!--Metric Card-->
-                            <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
-                                <div class="flex flex-row items-center">
-                                    <div class="flex-shrink pr-4">
-                                        <div class="rounded p-3 bg-pink-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
-                                    </div>
-                                    <div class="flex-1 text-right md:text-center">
-                                        <h5 class="font-bold uppercase text-gray-400">ED23</h5>
-                                        <h3 class="font-bold text-3xl text-gray-600" id="ED23">0 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/Metric Card-->
-                        </div>
-                        <div class="w-full md:w-1/2 xl:w-1/3 p-3">
-                            <!--Metric Card-->
-                            <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
-                                <div class="flex flex-row items-center">
-                                    <div class="flex-shrink pr-4">
-                                        <div class="rounded p-3 bg-red-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
-                                    </div>
-                                    <div class="flex-1 text-right md:text-center">
-                                        <h5 class="font-bold uppercase text-gray-400">ED45</h5>
-                                        <h3 class="font-bold text-3xl text-gray-600" id="ED45">0 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/Metric Card-->
-                        </div>
-                        <div class="w-full md:w-1/2 xl:w-1/3 p-3">
-                            <!--Metric Card-->
-                            <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
-                                <div class="flex flex-row items-center">
-                                    <div class="flex-shrink pr-4">
-                                        <div class="rounded p-3 bg-green-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
-                                    </div>
-                                    <div class="flex-1 text-right md:text-center">
-                                        <h5 class="font-bold uppercase text-gray-400">ECU</h5>
-                                        <h3 class="font-bold text-3xl text-gray-600" id="ECU">0 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/Metric Card-->
-                        </div>
-                        <div class="w-full md:w-1/2 xl:w-1/3 p-3">
-                            <!--Metric Card-->
-                            <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
-                                <div class="flex flex-row items-center">
-                                    <div class="flex-shrink pr-4">
-                                        <div class="rounded p-3 bg-green-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
-                                    </div>
-                                    <div class="flex-1 text-right md:text-center">
-                                        <h5 class="font-bold uppercase text-gray-400">EDC</h5>
-                                        <h3 class="font-bold text-3xl text-gray-600" id="EDC">0 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/Metric Card-->
-                        </div>
-                        
+                        <!--/table Card-->
                     </div>
-
                 </div>
-                                        
-                <!--/ Console Content-->
+
+                <!--Divider-->
+                <hr class="border-b-2 border-gray-600 my-8 mx-4">
+
+                <!--Console Content-->
                 
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                        <!--Metric Card-->
+                        <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
+                            <div class="flex flex-row items-center">
+                                <div class="flex-shrink pr-4">
+                                    <div class="rounded p-3 bg-yellow-600"><i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i></div>
+                                </div>
+                                <div class="flex-1 text-right md:text-center">
+                                    <h5 class="font-bold uppercase text-gray-400">FCU</h5>
+                                    <h3 class="font-bold text-3xl text-gray-600" id="FCU">0 <span class="text-green-500"><i class="fas fa-caret-up"></i></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Metric Card-->
+                    </div>
+                    <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                        <!--Metric Card-->
+                        <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
+                            <div class="flex flex-row items-center">
+                                <div class="flex-shrink pr-4">
+                                    <div class="rounded p-3 bg-yellow-600"><i class="fas fa-users fa-2x fa-fw fa-inverse"></i></div>
+                                </div>
+                                <div class="flex-1 text-right md:text-center">
+                                    <h5 class="font-bold uppercase text-gray-400">FCR</h5>
+                                    <h3 class="font-bold text-3xl text-gray-600" id="FCR">0<span class="text-pink-500"><i class="fas fa-exchange-alt"></i></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Metric Card-->
+                    </div>
+                    <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                        <!--Metric Card-->
+                        <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
+                            <div class="flex flex-row items-center">
+                                <div class="flex-shrink pr-4">
+                                    <div class="rounded p-3 bg-pink-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
+                                </div>
+                                <div class="flex-1 text-right md:text-center">
+                                    <h5 class="font-bold uppercase text-gray-400">ED23</h5>
+                                    <h3 class="font-bold text-3xl text-gray-600" id="ED23">0 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Metric Card-->
+                    </div>
+                    <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                        <!--Metric Card-->
+                        <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
+                            <div class="flex flex-row items-center">
+                                <div class="flex-shrink pr-4">
+                                    <div class="rounded p-3 bg-red-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
+                                </div>
+                                <div class="flex-1 text-right md:text-center">
+                                    <h5 class="font-bold uppercase text-gray-400">ED45</h5>
+                                    <h3 class="font-bold text-3xl text-gray-600" id="ED45">0 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Metric Card-->
+                    </div>
+                    <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                        <!--Metric Card-->
+                        <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
+                            <div class="flex flex-row items-center">
+                                <div class="flex-shrink pr-4">
+                                    <div class="rounded p-3 bg-green-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
+                                </div>
+                                <div class="flex-1 text-right md:text-center">
+                                    <h5 class="font-bold uppercase text-gray-400">ECU</h5>
+                                    <h3 class="font-bold text-3xl text-gray-600" id="ECU">0 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Metric Card-->
+                    </div>
+                    <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+                        <!--Metric Card-->
+                        <div class="bg-gray-900 border border-gray-800 rounded shadow p-2">
+                            <div class="flex flex-row items-center">
+                                <div class="flex-shrink pr-4">
+                                    <div class="rounded p-3 bg-green-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
+                                </div>
+                                <div class="flex-1 text-right md:text-center">
+                                    <h5 class="font-bold uppercase text-gray-400">EDC</h5>
+                                    <h3 class="font-bold text-3xl text-gray-600" id="EDC">0 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Metric Card-->
+                    </div>
+                    
+                </div>
+
+            </div>
+                                    
+            <!--/ Console Content-->
+            
+    
+        </div> 
+        <!--/container-->
         
-            </div> 
-            <!--/container-->
-        
+        <!-- Dropdowns/Menus -->
         <script>
-            
-            
             /*Toggle dropdown list*/
             /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
         
@@ -327,6 +326,7 @@
         
         
         </script>
+        <!-- Dropdowns/Menus -->
 
         <!-- Import maps polyfill -->
 		<!-- Remove this when import maps will be widely supported -->
@@ -335,7 +335,7 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "./node_modules/three/build/three.module.js"
+					"three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.module.min.js"
 				}
 			}
 		</script>
@@ -424,7 +424,7 @@
 
 				scene = new THREE.Scene();
 				scene.background = new THREE.Color( 0xf0f0f0 );
-                loader.load("./assets/Rhesus-Macaque-SBA.gltf", function (gltf) {
+                loader.load("assets/Rhesus-Macaque-SBA.gltf", function (gltf) {
                     sba = gltf.scene;
                     sba.rotation.y = Math.PI/4;
                     sba.opacity = 0.5;
