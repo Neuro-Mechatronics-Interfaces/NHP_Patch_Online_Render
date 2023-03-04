@@ -1,0 +1,3 @@
+[submodule "MATLAB/+io"]
+	path = MATLAB/+io
+	url = git@github.com:Neuro-Mechatronics-Interfaces/matlab_package__io.git
